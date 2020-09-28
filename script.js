@@ -8,6 +8,7 @@ let randomNumber = Math.floor(Math.random() * 100) + 1
 
       let guessCount = 1
       let resetButton
+      guessField.focus()
 
       function checkGuess() {
          let userGuess = Number(guessField.value)
